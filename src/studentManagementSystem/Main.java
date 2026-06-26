@@ -19,11 +19,9 @@ public class Main {
             System.out.println("6. Delete Student by id:");
             System.out.println("7. update student :");
             System.out.println("8. count students :");
-            System.out.println("8. Average Marks :");
-            System.out.println("8. count students :");
-            System.out.println("8. count students :");
-            System.out.println("8. count students :");
-            System.out.println("12. Exit");
+            System.out.println("9. Average Marks :");
+            System.out.println("10. Grade students :");
+            System.out.println("11. Exit");
 
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
@@ -124,7 +122,7 @@ public class Main {
                     service.studentGrade(gradeName);
                     break;
 //exit
-                case 12:
+                case 11:
 
                     System.out.println("Thank You!");
                     System.out.println("----------");
